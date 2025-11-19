@@ -4,6 +4,7 @@ import Benefits from './components/Benefits'
 import SocialProof from './components/SocialProof'
 import ProblemSolution from './components/ProblemSolution'
 import Features from './components/Features'
+import Product from './components/Product'
 import FAQ from './components/FAQ'
 import Guarantee from './components/Guarantee'
 import Pricing from './components/Pricing'
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Product />
         <Benefits />
         <SocialProof />
         <ProblemSolution />
